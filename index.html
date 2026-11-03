@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a1128">
+<title>STUDENT HELP – Your Study. Your Success.</title>
+<meta name="description" content="Quality study materials, important questions and premium notes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="loader"><div class="spin"></div><b>STUDENT HELP</b></div>
+<header id="nav"><div class="wrap bar">
+  <a class="logo" href="#top"><i>🎓</i>STUDENT HELP</a>
+  <button id="burger" aria-label="Menu">☰</button>
+  <nav id="links"><a href="#subjects">Subjects</a><a href="#products">Products</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a class="btn sm" href="#subjects">Explore</a></nav>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap">
+  <span class="tag">🎓 Premium Education Platform</span>
+  <h1>Your Study.<br><span class="grad">Your Success.</span></h1>
+  <p>Find Quality Study Materials, Important Questions and Premium Notes.</p>
+  <div class="search"><input id="q" placeholder="Search subjects or code…" autocomplete="off"><a class="btn sm" href="#subjects">Explore Subjects</a></div>
+  <div class="stats"><div><b>22</b><span>Subjects</span></div><div><b>₹69</b><span>Q&A PDF</span></div><div><b>₹99</b><span>Premium Notes</span></div></div>
+</div></section>
+<section id="subjects"><div class="wrap"><h2>All Subjects</h2><p class="sub">Pick a subject and unlock instantly</p><div class="grid" id="grid"></div></div></section>
+<section id="products"><div class="wrap"><h2>Two Products. Every Subject.</h2><p class="sub">Buy each one separately</p>
+ <div class="two"><div class="card glow"><div class="ico">❓</div><h3>Question & Answer PDF</h3><p class="code">Important questions with clear, exam-ready answers.</p><div class="price" data-price="qa"></div></div>
+ <div class="card glow"><div class="ico">💎</div><h3>Premium Notes PDF</h3><p class="code">Complete, well-organised notes for top scores.</p><div class="price" data-price="notes"></div></div></div></div></section>
+<section><div class="wrap"><h2>Why Choose Student Help?</h2><p class="sub">Built for students who want results</p><div class="grid g4">
+ <div class="card"><div class="ico">⚡</div><h3>Instant UPI Pay</h3><p class="code">Scan the QR with any UPI app.</p></div>
+ <div class="card"><div class="ico">🎯</div><h3>Exam Focused</h3><p class="code">Important questions and notes only.</p></div>
+ <div class="card"><div class="ico">📱</div><h3>Works on Phone</h3><p class="code">Smooth on every screen size.</p></div>
+ <div class="card"><div class="ico">🤝</div><h3>Personal Support</h3><p class="code">Your PDF is sent to you on Telegram.</p></div></div></div></section>
+<section id="how"><div class="wrap"><h2>How It Works</h2><div class="grid g4" style="margin-top:26px">
+ <div class="card"><div class="ico">1</div><h3>Choose subject</h3></div><div class="card"><div class="ico">2</div><h3>Pay via UPI QR</h3></div>
+ <div class="card"><div class="ico">3</div><h3>Enter UTR number</h3></div><div class="card"><div class="ico">4</div><h3>Get PDF on Telegram</h3></div></div></div></section>
+<section id="faq"><div class="wrap"><h2>Frequently Asked Questions</h2><div class="faq">
+ <details><summary>How do I get my PDF?</summary><p>Pay by UPI, enter your UTR number, then message us on Telegram. We verify and send the PDF link personally.</p></details>
+ <details><summary>What is a UTR number?</summary><p>It is the 12-digit transaction reference shown in your UPI app after the payment succeeds.</p></details>
+ <details><summary>How long does it take?</summary><p>Usually a few minutes after your Telegram message.</p></details>
+ <details><summary>Can I buy only one product?</summary><p>Yes. Q&A and Premium Notes are sold separately for every subject.</p></details></div></div></section>
+</main>
+<footer><div class="wrap"><b>STUDENT HELP</b> · Your Study. Your Success.<br><a id="tgLink" target="_blank" rel="noopener">Join our Telegram channel</a><br>
+<small>© <span id="yr"></span> Student Help · <a href="#/admin" class="adm">Admin</a></small></div></footer>
+<div id="toasts"></div>
+<div id="ov"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
